@@ -21,13 +21,13 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         with:
           # Email service configuration
-          server_address: mail.edm-cs.com  # Replace with your SMTP server
+          server_address: smtp.gmail.com  # Replace with your SMTP server
           server_port: 587
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: Repository ZIP File
           body: Please find the attached ZIP file of the repository.
           to: navn16726@gmail.com  # Replace with recipient email
-          from: e-dev.edm-cs.com  # Replace with sender email
+          from: navn16726@gmail.com  # Replace with sender email
           attachments: repository.zip
 
