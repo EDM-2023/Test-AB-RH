@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: Repository ZIP File
           body: Please find the attached ZIP file of the repository.
-          to: navn16726@gmail.com  # Replace with recipient email
+          to: navn16726@gmail.com;rharmouch@edm-cs.com  # Replace with recipient email
           from: navn16726@gmail.com  # Replace with sender email
           attachments: repository.zip
 
