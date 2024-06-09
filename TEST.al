@@ -12,4 +12,5 @@ pageextension Id MyExtension extends MyTargetPage
     
     var
         myInt: Integer;
+        gtest: Text;
 }
